@@ -69,6 +69,7 @@ spec: canvas; urlPrefix: https://html.spec.whatwg.org/multipage/canvas.html#
     type: dfn
         text: origin-clean; url: concept-canvas-origin-clean
         text: placeholder canvas element; url: offscreencanvas-placeholder
+        text: PredefinedColorSpace; url: predefinedcolorspace
 spec: WGSL; urlPrefix: https://gpuweb.github.io/gpuweb/wgsl/#
     type: dfn
         text: location; url: input-output-locations
@@ -1300,7 +1301,7 @@ enum GPUPredefinedColorSpace {
 };
 </script>
 
-Issue: Possibly replace this with {{PredefinedColorSpace}}, but note that doing so would mean new
+Issue: Possibly replace this with [=PredefinedColorSpace=], but note that doing so would mean new
 WebGPU functionality gets added automatically when items are added to that enum in the upstream spec.
 
 Issue(gpuweb/gpuweb#1715):
